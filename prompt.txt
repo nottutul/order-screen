@@ -1,0 +1,80 @@
+Design a modern professional mobile friendly Order Tracking Screen for an e commerce application. 
+
+# UI/UX Redesign Task: Order Delivery Status Experience
+
+## Context
+The current application's order tracking interface only displays basic text states:
+- Processing
+- Shipped
+- Out for Delivery
+- Delivered
+
+Users report that this current status view is confusing and difficult to understand at a glance. 
+
+## Objective
+Redesign and implement a modern, intuitive order tracking experience so the delivery status is clear immediately.
+
+## Requirements
+- Visual Delivery Timeline: Provide a clear, step-by-step visual progress timeline
+- Current Order Status: Prominently highlight the active status of the order
+- ETA: Display an estimated delivery date and time
+- Order Summary: Include a concise summary of the ordered products
+- Support Access: Provide a clear, easily accessible way to contact support
+- State Management: Handle appropriate loading, empty, and error states seamlessly
+- Responsive Layout: Optimize the design for mobile viewports, specifically targeting widths between 360px and 430px
+- Design System: Maintain clean spacing, typography, clear hierarchy, and strong visual consistency
+- Interactive Features: Implement meaningful micro-interactions. expanding order details, triggering support channels, or reporting a delivery issue.
+
+##The UI must handle all three situations:
+1. Delayed Order — the estimated delivery time has passed or the order is significantly delayed. Clearly communicate the delay and provide an appropriate next step.
+2. Delivered but Not Received — the system says the order was delivered, but the customer reports they did not receive it. Provide an appropriate next step or support action.
+3. Tracking Not Available Yet — the order exists, but tracking information is not available yet. Avoid an empty or broken-looking screen.
+
+Instruction:
+Keep code clean structured. Devide large code into components.  
+Use Shadcn ui library for buttons and Other thing.
+Devide the whole task into small tasks and implement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+use shadcn radix ui instead of base ui
+
+
+
+
+
+
+
+Explain what this problem is and help me fix it: Unexpected any. Specify a different type. 
+
+
+
+
+Explain what this problem is and help me fix it: Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+
+
+
+
+
+
+
+
+
+
